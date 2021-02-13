@@ -587,7 +587,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00c1c1;
+  color: rgb(208, 170, 124);
 }
 
 .about .content p:last-child {
@@ -633,8 +633,8 @@ section {
 }
 
 .cards .btn:hover {
-  border-color: rgb(10, 150, 148);
-  background-color: rgb(10, 168, 147);
+  border-color: rgb(3, 49, 43);
+  background-color: rgb(0, 78, 67);
   color: #fff;
 }
 
@@ -713,8 +713,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #00c1c1;
-  border: 2px solid #00c1c1;
+  background: rgb(3, 49, 43);
+  border: 2px solid rgb(0, 78, 67);
 }
 
 /*--------------------------------------------------------------
@@ -1055,7 +1055,7 @@ section {
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(0, 193, 193, 0.8);
+  background: rgb(208, 170, 124);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
@@ -1065,7 +1065,7 @@ section {
 }
 
 .team .member .social a:hover {
-  background: #00c1c1;
+  background: rgb(3, 49, 43);
 }
 
 .team .member .social i {
@@ -1117,7 +1117,7 @@ section {
 
 .contact .info-box i {
   font-size: 40px;
-  color: #00c1c1;
+  color: rgb(208, 170, 124);
   border-radius: 50%;
   padding: 8px;
 }
@@ -1276,7 +1276,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #334242;
+  background: rgb(208, 170, 124);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1289,7 +1289,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #00c1c1;
+  background: rgb(0, 78, 67);
   color: #fff;
   text-decoration: none;
 }
@@ -1314,7 +1314,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #28ffff;
+  color: rgb(208, 170, 124);
   font-size: 18px;
   line-height: 1;
 }
@@ -1337,7 +1337,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #0fffff;
+  color: rgb(208, 170, 124);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1390,4 +1390,19 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.accordion-icons .card-header .btn:before {
+  font-family: Font Awesome\5 Free;
+  font-weight: 900;
+  content: '\f07c';
+  padding-right: 4px;
+}
+.accordion-icons .card-header .btn.collapsed:before {
+  content: '\f07b';
+}
+.accordion-icons .card-header .btn:hover,
+.accordion-icons .card-header .btn:active,
+.accordion-icons .card-header .btn:focus {
+  text-decoration: none;
 }
