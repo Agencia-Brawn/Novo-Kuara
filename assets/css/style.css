@@ -610,6 +610,16 @@ section {
   text-align: ceneter;
 }
 
+.cards .card:hover {
+  transform: scale(1.01);
+  transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cards .card:hover::before {
+  opacity: 5;
+}
+
 .cards .card-body {
   -moz-text-align-last: center;
   text-align-last: center;
@@ -646,6 +656,17 @@ section {
   padding: 30px;
   border-radius: 6px;
   background: #fff;
+}
+
+.services .icon-box:hover {
+  transform: scale(1.05);
+  transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.services .icon-box:hover::before {
+  opacity: 5;
 }
 
 .services .icon-box i {
@@ -914,6 +935,16 @@ section {
   position: relative;
   overflow: hidden;
   border: 2px solid #e5ebeb;
+}
+
+.pricing .box:hover {
+  transform: translateY(-50px);
+  transition: 0.5s ease-out;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.pricing .box:hover:::before {
+  opacity: 5;
 }
 
 .pricing h3 {
@@ -1393,7 +1424,7 @@ section {
 }
 
 .accordion-icons .card-header .btn:before {
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   content: '\f07c';
   padding-right: 4px;
@@ -1405,4 +1436,24 @@ section {
 .accordion-icons .card-header .btn:active,
 .accordion-icons .card-header .btn:focus {
   text-decoration: none;
+}
+
+.btn-primary1 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: rgb(14, 122, 108);
+}
+.btn-primary1:hover {
+  background: rgb(3, 49, 43);
+  border: 2px solid rgb(0, 78, 67);
 }
