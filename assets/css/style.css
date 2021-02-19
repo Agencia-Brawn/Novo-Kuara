@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: alpinist;
   src: url(assets/fontes/alpinistbold.ttf);
 }
@@ -16,14 +16,14 @@
 @font-face {
   font-family: corbenregular;
   src: url(assets/fontes/corbenregular.ttf);
-} */
+}
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  /* font-family: alpinist, alpinistregular, corbenbold, corbenregular; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: alpinist, corbenbold, alpinistregular, corbenregular;
+  /* font-family: 'Open Sans', sans-serif; */
   color: #444444;
 }
 
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: alpinist, corbenbold;
 }
 
 /*--------------------------------------------------------------
@@ -444,7 +444,8 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: alpinist, corbenbold;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -753,7 +754,8 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: alpinist, corbenbold;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -820,14 +822,15 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  /* opacity: 0; */
   position: absolute;
   left: 30px;
   right: 30px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  /* background: rgba(255, 255, 255, 0.9); */
+  background: rgb(208, 170, 124);
   padding: 15px;
   border-radius: 4px;
 }
@@ -997,7 +1000,8 @@ section {
   font-size: 42px;
   color: #00c1c1;
   font-weight: 500;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: alpinist, corbenbold;
   margin-bottom: 20px;
 }
 
@@ -1051,7 +1055,8 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: alpinist, corbenbold;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1353,7 +1358,8 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: alpinist, corbenbold;
 }
 
 #footer .footer-top .social-links a {
@@ -1491,7 +1497,8 @@ section {
 }
 
 .btn-primary1 {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: alpinist, corbenbold;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -1508,4 +1515,9 @@ section {
 .btn-primary1:hover {
   background: rgb(3, 49, 43);
   border: 2px solid rgb(0, 78, 67);
+}
+
+@media (max-width: 400px){
+  .section-title h2 {
+    font-size: 27px;
 }
