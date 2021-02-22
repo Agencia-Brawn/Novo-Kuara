@@ -1517,7 +1517,8 @@ section {
   border: 2px solid rgb(0, 78, 67);
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .section-title h2 {
     font-size: 27px;
+  }
 }
