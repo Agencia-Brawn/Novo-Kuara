@@ -56,15 +56,15 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(0, 78, 67);
-  width: 40px;
-  height: 40px;
+  background:  #157347;
+  width: 45px;
+  height: 45px;
   border-radius: 4px;
   transition: all 0.4s;
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: 30px;
   color: #fff;
   line-height: 0;
 }
