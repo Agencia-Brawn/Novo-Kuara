@@ -1,21 +1,21 @@
 @font-face {
   font-family: alpinist;
-  src: url(assets/fontes/alpinistbold.ttf);
+  src: url(../fontes/alpinistbold.ttf);
 }
 
 @font-face {
   font-family: alpinistregular;
-  src: url(assets/fontes/alpinistregular.ttf);
+  src: url(../fontes/alpinistregular.ttf);
 }
 
 @font-face {
   font-family: corbenbold;
-  src: url(assets/fontes/corbenbold.ttf);
+  src: url(../fontes/corbenbold.ttf);
 }
 
 @font-face {
   font-family: corbenregular;
-  src: url(assets/fontes/corbenregular.ttf);
+  src: url(../fontes/corbenregular.ttf);
 }
 
 /*--------------------------------------------------------------
@@ -751,7 +751,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #334242;
+  color: rgb(3, 49, 43);
   transition: 0.3s;
 }
 
@@ -1227,8 +1227,12 @@ section {
   transform: scale(1.01);
   transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
-  background: rgba(4, 175, 152, 0.589);
-  color: black;
+  background: rgba(3, 49, 43);
+  color: #fff;
+}
+
+.contact .info-box:hover h3{
+  color: #fff;
 }
 
 .contact .info-box:hover::before {
@@ -1242,12 +1246,15 @@ section {
   padding: 8px;
 }
 
+
 .contact .info-box h3 {
   font-size: 20px;
   color: #334242;
   font-weight: 700;
   margin: 10px 0;
 }
+
+
 
 .contact .info-box p {
   padding: 0;
