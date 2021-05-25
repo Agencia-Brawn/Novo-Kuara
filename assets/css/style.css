@@ -1370,13 +1370,13 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #212b2b;
-  padding: 0 0 30px 0;
+  /* padding: 0 0 30px 0; */
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1506,7 +1506,7 @@ section {
 #footer .copyright {
   border-top: 1px solid #3e5050;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #footer .credits {
