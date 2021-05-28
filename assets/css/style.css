@@ -222,7 +222,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: rgb(0, 78, 67);
+  color: rgb(208, 170, 124);
 }
 
 .navbar .dropdown:hover > ul {
@@ -709,6 +709,17 @@ section {
   background-color: rgb(208, 170, 124);
   color: black;
   font-weight: bold;
+}
+
+#btn-drop {
+  font-size: 20px;
+  font-weight: bold; 
+  background-color: rgb(208, 170, 124);
+  color: black;
+}
+#btn-drop:hover {
+  background-color: rgb(14, 122, 108);
+  color: #fff;
 }
 
 /*--------------------------------------------------------------

@@ -11,11 +11,11 @@ Verde escuro rgb(3, 49, 43)
 http://www.sobralengenharia.com.br/
 
 ## resumo 27/05/21
-- faltou troca imgs do carrosel
-- atualizar o menu de todas as paginas
-- atulizar o link dos cards serviços e produtos
-- reduzir cards de serviços e produtos
-- atualizar o footer index
+- [x] Faltou troca imgs do carrosel
+- [x] Atualizar o menu de todas as paginas
+- [x] Atulizar o link dos cards serviços e produtos
+- [x] Reduzir cards de serviços e produtos
+- [x] Atualizar o footer index
 
 
 # Conteúdo para seções
