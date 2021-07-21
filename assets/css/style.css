@@ -1623,3 +1623,10 @@ section {
 .eapp-popup-content-blocks-container-free-link{
   opacity: 0;
 }
+
+
+/* STILO DA PAGINA QUADRO DE COMANDOS */
+.col-comando{
+  text-align: center;
+  margin-bottom: 15px;
+}
