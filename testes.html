@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<style type="text/css">
+		a img{ 
+			width: 25%;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center">Instagram @leosoarespa</h1>
+    	<div id="instafeed-container" style="text-align: center;"></div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+        limit: 3,
+    	resolution: 'low_resolution',
+		accessToken: 'IGQVJYR0tFeXVFMU94VVh5RjIxWVZAsRWktZA3ZAjcFFiQnZA4cGV6dzBRdnJDVkdDN0hlYUNvX2YtSzRsV1dJOFlyTnh6Slh6cDhBMVdRVUxzS01pZAnFiUTNUeDhOSV9yNUdua2J2Sld4LVI5bWZAEYWctdAZDZD'
+	});
+	userFeed.run();
+	</script>
+</body>
+</html>

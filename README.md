@@ -10,3 +10,6 @@ Verde escuro rgb(3, 49, 43)
 - [x] Atulizar o link dos cards serviços e produtos
 - [x] Reduzir cards de serviços e produtos
 - [x] Atualizar o footer index
+
+Instagram:
+https://github.com/stevenschobert/instafeed.js/
