@@ -525,6 +525,11 @@ h6 {
   .texto-mobile{
     display: none;
   }
+  
+  .especial-carrosel{
+    font-size: 13px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -788,7 +793,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.1), rgba(0, 0, 0, 0.5)),
-    url('../img/cta2.png') fixed center center;
+    url('../img/webp/cta2.webp') fixed center center;
   background-size: cover;
   padding: 120px 0;
 }

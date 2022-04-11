@@ -26,12 +26,20 @@
     rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <!-- <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" /> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" rel="preconnect" href="https://maps.googleapis.com" as="link" onload="this.onload=null;this.rel='preload'">
+  <link rel="preload" rel="preconnect" href="https://maps.gstatic.com" as="link" onload="this.onload=null;this.rel='preload'">
+
+  <!-- CSS PARA NAVEGADORES ANTIGOS -->
+  <noscript><link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css"></noscript>
+  <noscript><link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css"></noscript>
+  <noscript><link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css"></noscript>
+  <noscript><link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css"></noscript>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -58,7 +66,7 @@
       <div class="logo">
         <!-- <h1><a href="index.html">Kuara</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/logo-kuara-icone-colorido.jpg" alt="" class="img-fluid"></a>
+      <a href="index.html"><img src="assets/img/webp/logo-kuara-icone-colorido.webp" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -107,7 +115,7 @@
 
         <div class="carousel-inner" role="listbox">
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/carrosel1.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/webp/carrosel1.webp);">
             <!-- <div class="bg-video">
               <video style="width: 100%; opacity: 0.4;" autoplay src=""></video>
           </div> -->
@@ -129,7 +137,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/solar6.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/webp/solar6.webp)">
             <div class="carousel-container">
               <div class="carousel-content">
                 <img class="img-fluid" src="assets/img/iconkuara.png ">
@@ -152,7 +160,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/automacao1.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/webp/automacao1.webp)">
             <div class="carousel-container">
               <div class="carousel-content">
                 <img class="img-fluid" src="assets/img/iconkuara.png ">
@@ -183,9 +191,12 @@
                 <h2 class="animate__animated animate__fadeInDown">
                   Automação Predial
                 </h2>
-                <p class="animate__animated animate__fadeInUp p-carrosel">
-                  Oferecemos um sistema de automação e produtos, para intensificar a eficiência das instalações e
-                  controlar os subsistemas e de segurança por meio dos alarmes, por exemplo.
+                <p class="especial-carrosel animate__animated animate__fadeInUp p-carrosel">
+                  Oferecemos um sistema de automação predial para edifícios que visam a eficiência operacional, a redução de custos, a sustentabilidade, que buscam certificações de suas edificações, como a Certificação LEED, e que visam integrar as tecnologias como:
+
+                  Subsistemas de supervisão e controle das utilidades, que realizam o controle das instalações elétricas, de refrigeração e aquecimento, de instalações hidráulicas, de gás e controle dos transportes verticais;
+                  Subsistemas de segurança, ou seja, de proteção contra incêndio, contra intrusão e a monitoração visual;
+                  Para garantir a segurança e a qualidade nessas atividades, é importante a adoção de um sistema de automação predial ou building management system (BMS) específico para as demandas de cada tipo de uso das edificações.
                 </p>
                 <a href="automacaopredial.html"
                   class="btn-get-started scrollto animate__animated animate__fadeInUp">Saiba
@@ -226,7 +237,7 @@
           <!-- CARD ENERGIA SOLAR -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/services/card1.jpg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/card1.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title"><a href="">Energia Solar</a></h5>
                 <p class="card-text">
@@ -241,7 +252,7 @@
           <!-- CARD PRODUTOS -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/services/card2.png" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/card2.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title"><a href="">Produtos</a></h5>
                 <p class="card-text">
@@ -256,7 +267,7 @@
           <!-- CARD FINANCIAMENTO E RETORNO -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/services/card3.png" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/card3.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="">Financiamento e Retorno</a>
@@ -274,7 +285,7 @@
           <!-- TERMOGRAFIA -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/services/termografia.jpg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/termografia.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="termografia.html">Termografia</a>
@@ -291,7 +302,7 @@
           <!-- AUTOMAÇÃO PREDIAL -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/predial2.jpg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/predial2.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="automacaopredial.html">Automação Predial</a>
@@ -308,7 +319,7 @@
           <!-- AUTOMAÇÃO INDUSTRIAL -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/services/automacaoindustrial.jpg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/automacaoindustrial.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="automacaoindustrial.html">Automação Industrial</a>
@@ -337,7 +348,7 @@
                 <!-- PROJETOS ELÉTRICOS -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/services/projetoseletricos.jpg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/projetoseletricos.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         <a href="projetoseletricos.html">Projetos Elétricos</a>
@@ -355,7 +366,7 @@
                 <!-- LAUDOS E CONSULTORIA -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/services/laudoseconsultorias.jpg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/laudoseconsultorias.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         <a href="laudoseconsultoria.html">Laudos e Consultoria</a>
@@ -408,7 +419,7 @@
                 <!-- PROJETOS SPDA (PARA-RAIOS) -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/services/spda.jpg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/spda.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         <a href="projetosspda.html">Projetos SPDA (Para-Raios)</a>
@@ -446,7 +457,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="assets/img/kuara_sobre.png" class="img-fluid" alt="" />
+            <img src="assets/img/webp/kuara_sobre.webp" class="img-fluid" alt="" />
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <!-- <h3>
@@ -556,7 +567,7 @@
           <!-- Projeto 1 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/projetos/img1.jpg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/img1.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   Local: Magalhães Barata, vila de Cafezal
@@ -577,7 +588,7 @@
           <!-- Projeto 2 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/projetos/img2.jpeg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/img2.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   Local: Galpão, na Dr. Freitas, Belém
@@ -598,7 +609,7 @@
           <!-- Projeto 4 -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/projetos/img4.jpeg" class="card-img-top" alt="..." />
+              <img src="assets/img/webp/img4.webp" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
                   Local: Curuca
@@ -628,7 +639,7 @@
                 <!-- Projeto 3 -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/projetos/img3.jpeg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/img3.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         Casa na Curuça, Belem-pa
@@ -692,7 +703,7 @@
                 <!-- Projeto 7 -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/projetos/img7.jpeg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/img7.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         Local: Marajó
@@ -734,7 +745,7 @@
                 <!-- Projeto 9 -->
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                   <div class="card">
-                    <img src="assets/img/projetos/img9.jpeg" class="card-img-top" alt="..." />
+                    <img src="assets/img/webp/img9.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">
                         Local: Condomínio Oásis - 3 casas
@@ -777,7 +788,7 @@
           <div style="margin: 0 auto" class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/perfil.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/webp/perfil.webp" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="mailto:eng.max@kuaraengenharia.com.br">
                     <i class="bi bi-envelope-fill"></i>
@@ -1016,7 +1027,7 @@
                   </a> -->
 
                 <a target="__black" href="https://www.instagram.com/kuara.eletrica.automacao/">
-                  <i class="bx bxl-instagram"></i>
+                  <i class="bi bi-instagram"></i>
                 </a>
 
                 <!-- <a target="__black" href="https://api.whatsapp.com/send/?phone=559188192008&text&app_absent=0">
